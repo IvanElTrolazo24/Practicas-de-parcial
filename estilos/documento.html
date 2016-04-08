@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS- Hojas de estilo en cascada documento</title>
+    <style>
+        /*Selectores de etiqueta*/
+        body{
+            font-family: sans-serif;
+        }
+        p{
+            line-height: 30px;
+        }
+        /* Selectores tipo id*/
+        /*Importante: En HTML se recomienda utilizar solo un ID a la vez, sin repetir*/
+        #subtitulo{
+            color: darkmagenta;
+        }
+        #maintitle{
+           /* color:rgb(50,20,30);*/
+            color:#666;
+        }
+        /*Selectores tipo clase*/
+        .articulo>header{
+            font-family: consolas;
+            font-weight: bold;
+            color: darkblue;
+            font-size: 2em;
+            /*pt: points,px: pixels,%:percent, em:? */
+        }
+        .contenido p {
+            line-height: 1em;
+            text-align: justify:
+        }
+        
+        
+    </style>
+</head>
+<body>
+   <h1 id="maintitle">CCS-Hojas de estilo en cascada documento</h1>
+   <br>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum voluptates commodi, adipisci doloribus quas, tempore repellat voluptatum saepe similique est incidunt impedit nam iusto magnam rerum officiis. Iste, maxime, corporis.</p>
+    <h2 id="subtitulo">Ejemplo de ID</h2>
+    <section id="articulos">
+        <article class="articulo">
+            <header class="titulo">Titulo del articulo 1</header>
+            <p class="contenido">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ipsa porro aperiam quam vel distinctio quaerat earum aliquam, cumque, nostrum, fugit rerum doloremque. Id, reprehenderit ullam, ut aliquid maxime maiores.</p>
+            <button class="readmore">Leer mas...</button>
+            <br>
+        </article>
+                <article class="articulo">
+            <header class="titulo">Titulo del articulo 2</header>
+            <p class="contenido">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ipsa porro aperiam quam vel distinctio quaerat earum aliquam, cumque, nostrum, fugit rerum doloremque. Id, reprehenderit ullam, ut aliquid maxime maiores.</p>
+            <button class="readmore">Leer mas...</button>
+            <br>
+        </article>
+                <article class="articulo">
+            <header>Titulo del articulo 3</header>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque ipsa porro aperiam quam vel distinctio quaerat earum aliquam, cumque, nostrum, fugit rerum doloremque. Id, reprehenderit ullam, ut aliquid maxime maiores.</p>
+            <button>Leer mas...</button>
+        </article>
+    </section>
+    
+</body>
+</html>
