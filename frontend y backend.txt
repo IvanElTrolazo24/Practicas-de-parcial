@@ -1,0 +1,13 @@
+css- cascade stye sheets
+
+frontend 
+    contenido(html)
+    diseño(css)
+    funcionalidad(javascript)
+backend
+    servidor web
+        Apache,iis,ngine,nodeJ5
+    servidor de Aplicaciones
+        php,asp.Net,jsp,NoteJ5,RubyOnRails,Django Python
+    servidor de datos
+        MySQL, MS SQL Server, Oracle, PostgreSQL
