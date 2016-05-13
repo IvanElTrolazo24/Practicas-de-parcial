@@ -37,9 +37,12 @@
 
 #menu{
     height: 50px;
-    background-color: aqua;
     display: flex;
     justify-content: center;
+    background-color: gray;
+}
+#menu ul{
+    padding: 0;
 }
 #menu li {
     list-style-type: none;
@@ -54,13 +57,16 @@
     color: black;
 }
 #menu>ul>li>a{
+ 
     padding: 10;
     background-color: darkgray;
+    transition: 0.5;
 
 }
 #menu>ul>li>a:hover{
-    background-color: lightblue;
+    background-color: lightgray;
     transition: 0.5;
+    
 }
 #menu li ul{
     display: none;
@@ -70,11 +76,21 @@
     
 }
 
+/*NOTA IMPORTANTE INICIO*/
+
 #nota-importante{
     height: 300px;
     background-color: peru;
-    
+    margin: 20px 0;
+    /*Box shadow horizontal vertical blur color*/
+    box-shadow: 0 0 15px darkgray;
 }
+
+#nota-importante img{
+    border: 10px solid white;
+}
+
+/*NOTA IMPORTANTE FIN*/
 
 #notas-secundarias{
     height: 300px;
@@ -83,6 +99,8 @@
     float: left;
     background-color: brown; 
 }
+
+
 
 #publicidad{
     height: 300px;
