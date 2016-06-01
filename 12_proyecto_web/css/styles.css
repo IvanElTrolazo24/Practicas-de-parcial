@@ -206,3 +206,29 @@ h1,h2,h3,h4,h5,h6,figure,p{
     justify-content: space-between;
     margin-bottom: 20px;
 }
+
+#redes-sociales{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.facebook,.twitter{
+    width: 33px;
+    height: 33px;
+    display: inline-block;
+    text-indent: -9999px;
+    transition: 0.2s;
+}
+
+.facebook{
+    background: url('../images/facebook_twitter.png') 0 0;
+}
+.twitter{
+    background: url('../images/facebook_twitter.png') -43px 0;
+}
+.facebook:hover{
+    background: url('../images/facebook_twitter.png') 0 -43px;
+}
+.twitter:hover{
+    background: url('../images/facebook_twitter.png') -43px -43px;
+}
